@@ -1,0 +1,19 @@
+﻿{
+  "name": "Chat in Whatsapp",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "You can easily open whatsapp web conversations with numbers you see while using chrome",
+  "permissions": [ "contextMenus" , "storage" ],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  }
+}
