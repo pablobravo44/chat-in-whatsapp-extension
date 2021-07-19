@@ -11,8 +11,8 @@ chrome.contextMenus.onClicked.addListener((info) => {
   chrome.storage.sync.get({
     number_extension: '+34',
   }, function(items) {
-    chrome.tabs.create({
-      url: 'https://web.whatsapp.com/send?phone='+items.number_extension+''+encodeURIComponent(info.selectionText)+'&text='
-    });
+      chrome.tabs.create({
+        url: 'https://web.whatsapp.com/send?phone='+items.number_extension+''+encodeURIComponent(info.selectionText)+'&text='
+      });
   });
 });
