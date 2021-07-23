@@ -1,6 +1,5 @@
 # Chrome Extension to easily open whatsapp chats while using chrome
 
-Autorenovación de anuncios de [www.milanuncios.com](http://www.milanuncios.com/).
 
 ## Download
 
